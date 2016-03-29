@@ -2,42 +2,80 @@
 <html lang="zh">
 
 <head>
-    <title>HTML常用元素练习文件</title>
+    <title>HTML常用元素练习</title>
     <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href=" ">
 </head>
 
 <body>
-    <p><img src="http://pic.to8to.com/attch/day_160218/20160218_6410eaeeba9bc1b3e944xD5gKKhPEuEv.png" alt="竹林"></p>
-    <p><img src="img/Desert.jpg" alt="竹林"></p>
     <table border="1">
+        <caption>表格标题</caption>
         <thead>
             <tr>
                 <th>序号</th>
                 <th>姓名</th>
                 <th>性别</th>
+                <th>年龄</th>
             </tr>
         </thead>
         <tr>
-            <td>单元格</td>
-            <td>单元格</td>
-            <td>单元格</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
         </tr>
         <tr>
-            <td>单元格</td>
-            <td>单元格</td>
-            <td>单元格</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
         </tr>
         <tr>
-            <td>单元格</td>
-            <td>单元格</td>
-            <td>单元格</td>
-        </tr>
-        <tr>
-            <td>单元格</td>
-            <td>单元格</td>
-            <td>单元格</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
+            <td>单元格内容</td>
         </tr>
     </table>
+    <hr>
+    <form action="https://www.baidu.com/s">
+        <input type="text" name="wd" id=" ">
+        <input type="submit" value="点我开始搜索">
+    </form>
+    <form action="https://list.tmall.com/search_product.htm">
+        <input type="text" name="q" id=" ">
+        <input type="submit" value="点我开始搜索">
+    </form>
+    <form action="">
+        <input type="password" name="" id="">
+        <input type="color" name="" id="">
+        <p>
+            <input type="checkbox" name="food" id="">美食
+            <input type="checkbox" name="game" id="">竞技
+        </p>
+        <p>
+            <input type="radio" name="male" id="">男性
+            <input type="radio" name="male" id="">女性
+        </p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <section>
+            <h2>Task Progress</h2>
+            <p>Progress:
+                <progress id="p" max=100><span>0</span>%</progress>
+            </p>
+            <script>
+            var progressBar = document.getElementById('p');
+
+            function updateProgress(newValue) {
+                progressBar.value = newValue;
+                progressBar.getElementsByTagName('span')[0].textContent =
+                    newValue;
+            }
+            updateProgress(5);
+            </script>
+        </section>
+        <input type="submit" value="点我提交">
+    </form>
 </body>
 
 </html>
