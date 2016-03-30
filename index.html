@@ -2,80 +2,15 @@
 <html lang="zh">
 
 <head>
-    <title>HTML常用元素练习</title>
+    <title>外部样式表练习</title>
     <meta charset='utf-8'>
     <link rel="stylesheet" type="text/css" href=" ">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <table border="1">
-        <caption>表格标题</caption>
-        <thead>
-            <tr>
-                <th>序号</th>
-                <th>姓名</th>
-                <th>性别</th>
-                <th>年龄</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-        </tr>
-        <tr>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-        </tr>
-        <tr>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-            <td>单元格内容</td>
-        </tr>
-    </table>
-    <hr>
-    <form action="https://www.baidu.com/s">
-        <input type="text" name="wd" id=" ">
-        <input type="submit" value="点我开始搜索">
-    </form>
-    <form action="https://list.tmall.com/search_product.htm">
-        <input type="text" name="q" id=" ">
-        <input type="submit" value="点我开始搜索">
-    </form>
-    <form action="">
-        <input type="password" name="" id="">
-        <input type="color" name="" id="">
-        <p>
-            <input type="checkbox" name="food" id="">美食
-            <input type="checkbox" name="game" id="">竞技
-        </p>
-        <p>
-            <input type="radio" name="male" id="">男性
-            <input type="radio" name="male" id="">女性
-        </p>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <section>
-            <h2>Task Progress</h2>
-            <p>Progress:
-                <progress id="p" max=100><span>0</span>%</progress>
-            </p>
-            <script>
-            var progressBar = document.getElementById('p');
-
-            function updateProgress(newValue) {
-                progressBar.value = newValue;
-                progressBar.getElementsByTagName('span')[0].textContent =
-                    newValue;
-            }
-            updateProgress(5);
-            </script>
-        </section>
-        <input type="submit" value="点我提交">
-    </form>
+    <p>在 CSS 中，注释以“/*”开始，以“*/”结束，注释之内的内容会被浏览器忽略。 注释不能嵌套使用。
+    </p>
 </body>
 
 </html>
