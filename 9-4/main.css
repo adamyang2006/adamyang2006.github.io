@@ -186,6 +186,11 @@ p.an-num {
     overflow-wrap: break-word;
 }
 
+.left p {
+    line-height: 1.5;
+    text-indent: 2em;
+}
+
 .left h2:nth-child(1) {
     font-size: 42px;
     line-height: 1.1;
@@ -209,7 +214,7 @@ p.an-num {
 
 .left img {
     float: right;
-    margin-top: 100px;
-    padding: 20px 0 20px 20px;
+    /*margin-top: 100px;*/
+    padding: 10px 0 10px 10px;
     /*position: absolute;*/
 }
