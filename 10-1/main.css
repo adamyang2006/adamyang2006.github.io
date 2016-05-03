@@ -113,17 +113,51 @@ body {
     line-height: 1.28;
 }
 
-.article-info p {
+.left p:first-child {
     color: #888;
     font-size: 12px;
+    margin-bottom: 10px;
+    text-indent: 0;
+}
+
+.article-info ul {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #E3E2D9 solid;
 }
 
 .article-info li {
     float: left;
     width: 45px;
     height: 30px;
+    margin-right: 10px;
+}
+
+.article-info li a {
+    display: block;
+    height: 30px;
+    color: transparent;
+}
+
+.article-info li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .article-info .sina {
     background-image: url(img/share-icon.png);
+}
+
+.article-info .wechat {
+    background-image: url(img/share-icon.png);
+    background-position: 0 -30px;
+}
+
+.left p {
+    text-indent: 2em;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.left img {
+    text-align: center;
 }
