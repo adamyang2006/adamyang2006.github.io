@@ -155,3 +155,23 @@ h2 {
     color: #fff;
     opacity: 1;
 }
+
+
+/*百度新闻样式*/
+
+div[style="margin-bottom:10px"],
+div[style="margin-top:5px;font-size:12px"] {
+    display: none;
+}
+
+.baidu {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/*新浪微博样式*/
+
+.weibo-list-source {
+    display: none;
+}
